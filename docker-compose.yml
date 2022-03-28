@@ -1,0 +1,6 @@
+services:
+  server:
+    image: python:3.8
+    volumes:
+      - .:/src
+    command: "python /src/server.py"
